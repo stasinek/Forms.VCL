@@ -9,8 +9,8 @@
     <DEFFILE value=""/>
     <RESDEPEN value="$(RESFILES) About_frm.dfm"/>
     <LIBFILES value=""/>
-    <LIBRARIES value="Vcl50.lib dclusr50.lib vcl.lib"/>
-    <SPARELIBS value="vcl.lib dclusr50.lib Vcl50.lib"/>
+    <LIBRARIES value="VCLX50.lib Vcl50.lib dclusr50.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib dclusr50.lib Vcl50.lib VCLX50.lib"/>
     <PACKAGES value="db.bpi ado.bpi vcldb.bpi qrpt.bpi bde.bpi vcldbx.bpi dsnap.bpi cds.bpi 
       bdecds.bpi teeui.bpi teedb.bpi tee.bpi teeqr.bpi ibxpress.bpi 
       visualclx.bpi visualdbclx.bpi dbexpress.bpi dbxcds.bpi"/>

@@ -1,6 +1,6 @@
 //----------------------------------------------------------------------------
-#ifndef About_frm_H
-#define About_frm_H
+#ifndef __About_frm_H
+#define __About_frm_H
 //----------------------------------------------------------------------------
 #include <System.hpp>
 #include <Windows.hpp>
@@ -9,16 +9,16 @@
 #include <Graphics.hpp>
 #include <Forms.hpp>
 #include <Controls.hpp>
-#include <StdCtrls.hpp>
 #include <Buttons.hpp>
+#include <StdCtrls.hpp>
 #include <ExtCtrls.hpp>
-#include "..\Packages\exeinfo.h"
-#include "..\Packages\framepan.h"
 #include <ComCtrls.hpp>
+//----------------------------------------------------------------------------
+#include "..\Packages\framepan.h"
 #include "..\Packages\EXEINFO.h"
 #include "..\Packages\EXERES.h"
 //----------------------------------------------------------------------------
-class TAboutForm : public TForm
+class TAbout_form : public TForm
 {
 __published:
 		TImage *Image1;
@@ -54,9 +54,9 @@ __published:
 private:
     HINSTANCE hInst;
 public:
-    virtual __fastcall TAboutForm(TComponent* AOwner);
+    virtual __fastcall TAbout_form(TComponent* AOwner);
 };
 //----------------------------------------------------------------------------
-extern PACKAGE TAboutForm *AboutForm;
+extern PACKAGE TAbout_form *About_form;
 //----------------------------------------------------------------------------
 #endif

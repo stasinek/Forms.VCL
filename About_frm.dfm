@@ -1,6 +1,6 @@
-object AboutForm: TAboutForm
-  Left = 177
-  Top = 233
+object About_form: TAbout_form
+  Left = 305
+  Top = 249
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'O...'
@@ -1433,23 +1433,26 @@ object AboutForm: TAboutForm
     end
   end
   object ExeInformation1: TExeInformation
-    CompanyName = #20
-    FileDescription = #20
-    FileVersion = #20
-    InternalName = #20
-    LegalCopyright = #20
-    LegalTrademarks = #20
-    OriginalFilename = #20
-    ProductName = #20
-    ProductVersion = #20
-    Comments = #20
-    MajorVersion = 'X¶è'#7'<'#39'å'#7
-    Left = 48
-    Top = 24
+    CompanyName = 'Inprise Corporation'
+    FileDescription = 'C++ Builder Development Environment'
+    FileVersion = '5.0.12.34'
+    InternalName = 'BCB'
+    LegalCopyright = 'Copyright © 1996-2000 Inprise Corporation'
+    LegalTrademarks = 'Copyright © 1996-2000 Inprise Corporation'
+    OriginalFilename = 'BCB.EXE'
+    ProductName = 'Standard'
+    ProductVersion = '5.0'
+    Comments = '5.0'
+    MajorVersion = '5'
+    MinorVersion = '0'
+    Release = '12'
+    Build = '34'
+    Left = 408
+    Top = 12
   end
   object ExeResource1: TExeResource
     Kind = rkICON
-    Left = 112
-    Top = 28
+    Left = 408
+    Top = 60
   end
 end
