@@ -24,8 +24,8 @@
     <USERDEFINES value="_DEBUG"/>
     <SYSDEFINES value="NO_STRICT"/>
     <MAINSOURCE value="Forms.cpp"/>
-    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects\&quot;;&quot;C:\Moje dokumenty\PRC++\BCB5\Classes\&quot;;$(BCB)\include;$(BCB)\include\vcl;..\Packages;..\Libraries"/>
-    <LIBPATH value="$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\CBuilder6\Projects\&quot;;&quot;C:\Moje dokumenty\PRC++\BCB5\Classes\&quot;;$(BCB)\lib\obj;$(BCB)\lib;..\Packages;..\Libraries"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl;..\Packages;..\Libraries"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;..\Packages;..\Libraries"/>
     <WARNINGS value="-w-par"/>
   </MACROS>
   <OPTIONS>
@@ -71,22 +71,24 @@ Comments=Napisane w Borland C++ Builder 6
 PrivateBuild=
 
 [HistoryLists\hlIncludePath]
-Count=5
-Item0=C:\Program Files\Borland\CBuilder6\Projects\;C:\Moje dokumenty\PRC++\BCB5\Classes\;$(BCB)\include;$(BCB)\include\vcl;..\Packages;..\Libraries
-Item1=C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\include;$(BCB)\include\vcl;..\Packages;..\Libraries
-Item2=C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\include;$(BCB)\include\vcl;..\..\Packages;..\..\Libraries
-Item3=$(BCB)\include;$(BCB)\include\vcl;..\..\Packages;..\..\Libraries
-Item4=$(BCB)\include;$(BCB)\include\vcl
+Count=6
+Item0=$(BCB)\include;$(BCB)\include\vcl;..\Packages;..\Libraries
+Item1=C:\Program Files\Borland\CBuilder6\Projects\;C:\Moje dokumenty\PRC++\BCB5\Classes\;$(BCB)\include;$(BCB)\include\vcl;..\Packages;..\Libraries
+Item2=C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\include;$(BCB)\include\vcl;..\Packages;..\Libraries
+Item3=C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\include;$(BCB)\include\vcl;..\..\Packages;..\..\Libraries
+Item4=$(BCB)\include;$(BCB)\include\vcl;..\..\Packages;..\..\Libraries
+Item5=$(BCB)\include;$(BCB)\include\vcl
 
 [HistoryLists\hlLibraryPath]
-Count=7
-Item0=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects\;C:\Moje dokumenty\PRC++\BCB5\Classes\;$(BCB)\lib\obj;$(BCB)\lib;..\Packages;..\Libraries
-Item1=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\lib\obj;$(BCB)\lib;..\Packages;..\Libraries
-Item2=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages;..\..\Libraries
-Item3=C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages;..\..\Libraries
-Item4=$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages;..\..\Libraries
-Item5=$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages
-Item6=$(BCB)\lib\obj;$(BCB)\lib
+Count=8
+Item0=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;..\Packages;..\Libraries
+Item1=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects\;C:\Moje dokumenty\PRC++\BCB5\Classes\;$(BCB)\lib\obj;$(BCB)\lib;..\Packages;..\Libraries
+Item2=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\lib\obj;$(BCB)\lib;..\Packages;..\Libraries
+Item3=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages;..\..\Libraries
+Item4=C:\Program Files\Borland\CBuilder6\Projects;C:\Moje dokumenty\PRC++\BCB5\Classes;$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages;..\..\Libraries
+Item5=$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages;..\..\Libraries
+Item6=$(BCB)\lib\obj;$(BCB)\lib;..\..\Packages
+Item7=$(BCB)\lib\obj;$(BCB)\lib
 
 [HistoryLists\hlDebugSourcePath]
 Count=1
