@@ -1,22 +1,46 @@
-//----------------------------------------------------------------------------
-#ifndef __About_frm_H
-#define __About_frm_H
-//----------------------------------------------------------------------------
-#include <System.hpp>
-#include <Windows.hpp>
-#include <SysUtils.hpp>
-#include <Classes.hpp>
-#include <Graphics.hpp>
-#include <Forms.hpp>
-#include <Controls.hpp>
+
+#include "EXEINFO.h"
+#include "EXERES.h"
 #include <Buttons.hpp>
-#include <StdCtrls.hpp>
-#include <ExtCtrls.hpp>
+#include <Classes.hpp>
 #include <ComCtrls.hpp>
+#include <Controls.hpp>
+#include <ExtCtrls.hpp>
+#include <Graphics.hpp>
+#include <StdCtrls.hpp>//----------------------------------------------------------------------------
+#ifndef __About_frm_HDR__
+#define __About_frm_HDR__
 //----------------------------------------------------------------------------
-#include "..\Packages\framepan.h"
-#include "..\Packages\EXEINFO.h"
-#include "..\Packages\EXERES.h"
+#if __BORLANDC__ > 0x551
+#include <Vcl.Controls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Graphics.hpp>
+#include <Vcl.Buttons.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Classes.hpp>
+#include <SysUtils.hpp>
+#include <Windows.hpp>
+#include <System.hpp>
+#include "FRAMEPAN.h"
+#include "EXEINFO.h"
+#include "EXERES.h"
+#else
+#include <Windows.hpp>
+#include <Buttons.hpp>
+#include <Classes.hpp>
+#include <ComCtrls.hpp>
+#include <Controls.hpp>
+#include <ExtCtrls.hpp>
+#include <Graphics.hpp>
+#include <StdCtrls.hpp>
+#include "FRAMEPAN.h"
+#include "EXEINFO.h"
+#include "EXERES.h"
+#endif
+#pragma hdrstop
+
 //----------------------------------------------------------------------------
 class TAbout_form : public TForm
 {

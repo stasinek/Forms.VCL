@@ -57,8 +57,16 @@ ShowWindow(Application->Handle, SW_HIDE);
 #include <shellapi.h>
 void __fastcall TAbout_form::Label5Click(TObject *Sender)
 {
-ShellExecute(this->Handle,"open",String("SMTP:// " + Label5->Caption).c_str(),
-				 NULL,"",SW_SHOWDEFAULT);
+static char path[MAX_PATH];
+strcpy(path,"SMTP://");
+static char helper[MAX_PATH];
+#if __BORLANDC__ <= 0x551
+strcpy(helper,Label5->Caption.c_str());
+#else
+wcstombs(helper, Label5->Caption.c_str(),Label5->Caption.Length());
+#endif
+strcat(path,helper);
+ShellExecute(this->Handle,"open",path,NULL,"",SW_SHOWDEFAULT);
 }
 //---------------------------------------------------------------------------
 

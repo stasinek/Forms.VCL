@@ -11,28 +11,28 @@ File_8=SourceModule,'C:\Documents and Settings\stasiek.TC12\My Documents\My Proj
 File_9=SourceModule,'c:\program files\borland\cbuilder6\include\tchar.h',0,1,262,10,275,0,0
 
 [Modules]
-Module0=C:\SRC\OBSOLETE\FORM_TEMPLATES\Forms.bpr
-Module1=C:\SRC\OBSOLETE\FORM_TEMPLATES\About_frm.cpp
+Module0=C:\SRC\OBSOLETE\FORM_TEMPLATES\About_frm.cpp
+Module1=C:\SRC\OBSOLETE\FORM_TEMPLATES\Forms.bpr
 Count=2
 EditWindowCount=1
-
-[C:\SRC\OBSOLETE\FORM_TEMPLATES\Forms.bpr]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
 
 [C:\SRC\OBSOLETE\FORM_TEMPLATES\About_frm.cpp]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[C:\Program Files\Borland\CBuilder5\Projects\ProjectGroup1.bpg]
+[C:\SRC\OBSOLETE\FORM_TEMPLATES\Forms.bpr]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\SRC\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
 [EditWindow0]
 ViewCount=2
-CurrentView=0
+CurrentView=1
 View0=0
 View1=1
 MessageView=MessageView@EditWindow0
@@ -43,12 +43,12 @@ Left=199
 Top=229
 Width=1081
 Height=482
-MaxLeft=-2
-MaxTop=97
+MaxLeft=266
+MaxTop=584
 MaxWidth=1288
-MaxHeight=679
+MaxHeight=676
 ClientWidth=1280
-ClientHeight=652
+ClientHeight=649
 LeftPanelSize=0
 RightPanelSize=0
 BottomPanelSize=85
@@ -65,8 +65,8 @@ LeftCol=1
 [View1]
 Module=C:\SRC\OBSOLETE\FORM_TEMPLATES\About_frm.cpp
 CursorX=1
-CursorY=164
-TopLine=163
+CursorY=128
+TopLine=128
 LeftCol=1
 
 [Watches]
@@ -157,10 +157,26 @@ LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=Constraints.MinWidth
+SelectedItem=Picture
 ExpandedItems=Anchors,Constraints
 HiddenCategories=
 ShowStatusBar=1
+
+[CallStackWindow]
+Create=1
+Visible=0
+State=0
+Left=493
+Top=319
+Width=294
+Height=161
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=286
+ClientHeight=137
+TBDockHeight=161
+LRDockWidth=294
+Dockable=1
 
 [MessageView@EditWindow0]
 Create=1
